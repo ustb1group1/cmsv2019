@@ -7,8 +7,14 @@ public class Main {
 		SalesData objSalesData=new SalesData();
 		
 		System.out.println("Hello UST Guys!");
+		displayGreetings();
 		objSalesData.display();
 		
+	}
+	
+	private static void displayGreetings(){
+		
+		System.out.println("Welcome to Sales Report App 2019...");
 	}
 
 }
